@@ -7,6 +7,7 @@
         body {
             /*font-family: "Georgia", serif;*/
             font-family: "Geneva", sans-serif;
+            margin: 0;
         }
 
         h3 {
@@ -14,22 +15,34 @@
             margin-bottom: 10px;
         }
 
+        h5 {
+            margin-top: 3px;
+            margin-bottom: 3px;
+        }
+
         .leftBar {
             font-family: "Lucida Console";
-            font-size: 30px;
             text-align:center;
             flex: 1;
+            height: 100vh;
+        }
+
+        .emmaPrice {
+            font-size: 60px;
             margin: 30px;
         }
 
-        .mainInfo {
-            height: calc(100vh - 100px);
+        .scroll {
+            height: 100vh;
+            overflow: scroll;
             flex: 2;
+        }
+
+        .mainInfo {
             display:flex;
             flex-direction: column;
             justify-content: center;
-            text-align: center;
-            margin: 20px;
+            margin: 20px 40px 20px 20px;
         }
 
         .mainSection {
@@ -42,38 +55,59 @@
 <body>
     <div class="mainPage" style="display: flex">
         <div class="leftBar">
-            <h3>Emma Price</h3>
+            <h1 class="emmaPrice">Emma Price</h1>
+            <p>Software Developer, Student, Musician, Cat Lover</p>
+<!--            todo: Add linkedin, github, resume links-->
+
         </div>
-        <div class="mainInfo">
-            <div class="mainSection">
-                <h3>Education</h3>
-                <span>Northeastern University</span> <br/>
-                <span>Khoury College of Computer Sciences</span> <br/>
-                <span>2018 - May 2023 (expected)</span><br/>
-                <span>Major: Computer Science & Music Technology</span><br/>
-                <span>Honors: Dean's List</span>
-            </div>
+        <div class="scroll">
+            <div class="mainInfo">
+                <div class="mainSection">
+                    <h2>Hi I'm Emma!</h2>
+                    <p>Thanks for stopping by! </p>
+                    <p>
+                        I'm currently a student at Northeastern University, pursuing a B.S. in Computer Science and
+                        Music Technology. I love programming and music (I play violin and guitar), and
+                        though they seem like distant interests, I've found that they have quite a lot
+                        in common! They both need a great team to succeed, require creative
+                        problem-solving, and are full of complete and utter nerds.
+                    </p>
+                    <p>
+                        I also love cats, hiking, and cross-stitch! I dream of living the #vanlife, but
+                        know that I probably would get too cooped up living in a van. I enjoy cooking and casual
+                        meal prepping, and my backup career (because everyone knows Software Developers need
+                        backup careers!) is to become a bee keeper, despite the fact that I've never
+                        actually been near a bee-hive.
+                    </p>
+                </div>
 
-            <div class="mainSection">
-                <h3>Coursework</h3>
-                <span>Object-Oriented Design</span><br/>
-                <span>Database Design</span><br/>
-                <span>Discrete Structures</span><br/>
-                <span>Fundamentals of CS I & II</span>
-            </div>
+                <div class="mainSection">
+                    <h3>What I'm passionate about</h3>
+                    <p>
+                        I'm really passionate about getting women interested and involved in Computer Science.
+                        I am a product of some of the first women-in-CS initiatives like Girls Who Code
+                        and all-girl robotics teams. I think that in order for a team to achieve their
+                        best results, they need diverse ideas and solutions, which means you need a diverse team!
+                    </p>
+                    <p>
+                        I also think it's really important that young people learn financial literacy,
+                        from managing a bank account and budgeting to how the stock market works and how to manage debt.
+                        Living on your own and learning how to "adult" is hard, but knowing how to manage
+                        your finances makes it a little easier.
+                    </p>
+                </div>
 
-            <div class="mainSection">
-                <h3>Languages and Skills</h3>
-                <span>Languages: JavaScript, React, Java, HTML/CSS</span><br/>
-                <span>Databases: MySql, Redshift, MemSql, DynamoDB, AWS ElasticSearch</span><br/>
-                <span>Cloud Services: AWS (ECS, EC2)</span>
-            </div>
+                <div class="mainSection">
+                    <h3>What I do</h3>
+                </div>
 
-            <div class="mainSection">
-                <h3>Interests</h3>
-                <span>Leadership: Northeastern University Women in Technology - Vice President</span><br/>
-                <span>Activities: Alpha Omega Campus Ministry</span><br/>
-                <span>Interests: Robotics, Big Data, Financial Literacy, Cross Stitch, Violin, Hiking, Cats</span>
+                <div class="mainSection">
+                    <h3>What I've done</h3>
+                </div>
+
+                <div class="mainSection">
+                    <h3>Fun things I've built</h3>
+                </div>
             </div>
         </div>
     </div>
