@@ -1,1 +1,65 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Emma Price</title>
+    <style>
+        .leftBar {
+            height: calc(100vh - 100px);
+            flex: 1;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .leftSection {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="topBar" style="display: flex">
+        <span style="text-align:center; flex: 1; margin: 30px">
+            Emma Price
+        </span>
+    </div>
+    <div class="mainPage" style="display: flex">
+        <div class="leftBar">
+            <div class="leftSection">
+                <h3>Education</h3>
+                <span>Northeastern University</span> <br/>
+                <span>Khoury College of Computer Sciences</span> <br/>
+                <span>2018 - May 2023 (expected)</span><br/>
+                <span>Major: Computer Science & Music Technology</span><br/>
+                <span>Honors: Dean's List</span>
+            </div>
+
+            <div class="leftSection">
+                <h3>Coursework</h3>
+                <span>Object-Oriented Design</span><br/>
+                <span>Database Design</span><br/>
+                <span>Discrete Structures</span><br/>
+                <span>Fundamentals of CS I & II</span>
+            </div>
+
+            <div class="leftSection">
+                <h3>Languages and Skills</h3>
+                <span>Languages: JavaScript, React, Java, HTML/CSS</span>
+                <span>Databases: MySql, Redshift, MemSql, DynamoDB, AWS ElasticSearch</span>
+                <span>Cloud Services: AWS (ECS, EC2)</span>
+            </div>
+
+            <div class="leftSection">
+                <h3>Interests</h3>
+                <span>Leadership: Northeastern University Women in Technology - Vice President</span>
+                <span>Activities: Alpha Omega Campus Ministry</span>
+                <span>Interests: Robotics, Big Data, Financial Literacy, Cross Stitch, Violin, Hiking, Cats</span>
+            </div>
+        </div>
+        <div class="mainInfo" style="flex: 2; text-align: center">
+            Main Info
+        </div>
+    </div>
+</body>
+</html>
