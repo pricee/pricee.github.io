@@ -10,21 +10,30 @@
             margin: 0;
         }
 
+        h2 {
+            font-size: 40px;
+        }
+
         h3 {
+            font-size: 25px;
             margin-top: 10px;
             margin-bottom: 10px;
         }
 
-        h5 {
-            margin-top: 3px;
-            margin-bottom: 3px;
+        a {
+            color: #784e5d;
+        }
+
+        a:hover {
+            color: #802d4c;
         }
 
         .leftBar {
-            font-family: "Lucida Console";
+            font-family: "Lucida Console", serif;
             text-align:center;
-            flex: 1;
+            flex: 2;
             height: 100vh;
+            background-color: #f2cc50;
         }
 
         .emmaPrice {
@@ -32,10 +41,15 @@
             margin: 30px;
         }
 
+        .leftBar div {
+            margin: 10px;
+        }
+
         .scroll {
             height: 100vh;
             overflow: scroll;
-            flex: 2;
+            flex: 5;
+            background-color: #f2eee1;
         }
 
         .mainInfo {
@@ -49,6 +63,11 @@
             flex: 1;
             margin-top: 5px;
             margin-bottom: 5px;
+            color: #802d4c;
+        }
+
+        .mainInfo p {
+            color: #736c54;
         }
     </style>
 </head>
@@ -56,7 +75,8 @@
     <div class="mainPage" style="display: flex">
         <div class="leftBar">
             <h1 class="emmaPrice">Emma Price</h1>
-            <p>Software Developer, Student, Musician, Cat Lover</p>
+            <div>Software Developer | Student </div>
+            <div>Musician | Cat Lover</div>
 <!--            todo: Add linkedin, github, resume links-->
 
         </div>
@@ -73,11 +93,14 @@
                         problem-solving, and are full of complete and utter nerds.
                     </p>
                     <p>
-                        I also love cats, hiking, and cross-stitch! I dream of living the #vanlife, but
-                        know that I probably would get too cooped up living in a van. I enjoy cooking and casual
+                        I also love cats, hiking, and
+                        <a href="https://stitchedmodern.com/blogs/news/a-beginners-guide-to-cross-stitch" target="_blank">cross-stitch</a>!
+                        I dream of living the
+                        <a href="https://trailandsummit.com/what-is-vanlife/" target="_blank">#vanlife</a>,
+                        but know that I probably would get too cooped up living in a van. I enjoy cooking and casual
                         meal prepping, and my backup career (because everyone knows Software Developers need
                         backup careers!) is to become a bee keeper, despite the fact that I've never
-                        actually been near a bee-hive.
+                        actually been near a bee-hive...
                     </p>
                 </div>
 
@@ -85,14 +108,25 @@
                     <h3>What I'm passionate about</h3>
                     <p>
                         I'm really passionate about getting women interested and involved in Computer Science.
-                        I am a product of some of the first women-in-CS initiatives like Girls Who Code
-                        and all-girl robotics teams. I think that in order for a team to achieve their
+                        I am a product of some of the first women-in-CS initiatives like
+                        <a href="https://girlswhocode.com/" target="_blank">Girls Who Code</a> and
+                        <a href="https://www.marlbots3526.org/" target="_blank">all-girl robotics teams</a>.
+                        I think that in order for a team to achieve their
                         best results, they need diverse ideas and solutions, which means you need a diverse team!
                     </p>
                     <p>
-                        I also think it's really important that young people learn financial literacy,
-                        from managing a bank account and budgeting to how the stock market works and how to manage debt.
-                        Living on your own and learning how to "adult" is hard, but knowing how to manage
+                        I'm also really passionate about sustainability! As humans, we are stewards
+                        to the Earth and are called to take care of it! I try to do my part by
+                        <a href="https://www.wwf.org.au/news/blogs/10-worst-single-use-plastics-and-eco-friendly-alternatives#gs.btk9vo" target="_blank">
+                            replacing single-use items</a> in my daily life and buying products with minimal
+                        to no packaging as well as by supporting companies with sustainable practices.
+                    </p>
+                    <p>
+                        I also think it's really important that young people learn
+                        <a href="https://www.takechargeamerica.org/7-essential-financial-skills-for-young-adults/" target="_blank">
+                            financial literacy</a>, from managing a bank account and budgeting to
+                        how the stock market works and how to manage debt. Living on your own and
+                        learning how to "adult" is hard, but knowing how to manage
                         your finances makes it a little easier.
                     </p>
                 </div>
