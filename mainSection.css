@@ -1,0 +1,29 @@
+.scroll {
+    height: 100vh;
+    overflow: scroll;
+    flex: 5;
+    background-color: #f2eee1;
+}
+
+.mainInfo {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 40px 20px 20px;
+}
+
+.mainSection {
+    flex: 1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #802d4c;
+}
+
+.mainInfo p {
+    color: #736c54;
+    font-size: 17px;
+}
+
+.descriptionForHeader {
+    margin-top: 5px;
+}

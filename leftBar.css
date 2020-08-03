@@ -1,0 +1,22 @@
+.leftBar {
+    font-family: "Lucida Console", serif;
+    text-align:center;
+    flex: 2;
+    height: 100vh;
+    background-color: #f2cc50;
+}
+
+.portrait {
+    width: calc(100% - 40px);
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.emmaPrice {
+    font-size: 60px;
+    margin: 30px;
+}
+
+.leftBar div {
+    margin: 10px;
+}
