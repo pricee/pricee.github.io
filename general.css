@@ -19,10 +19,20 @@ h4 {
     margin-bottom: 0px;
 }
 
+h5 {
+    font-size:13px;
+    margin-top:3px;
+    margin-bottom: 5px;
+}
+
 a {
     color: #784e5d;
 }
 
 a:hover {
     color: #802d4c;
+}
+
+.mainPage {
+    display: flex;
 }
