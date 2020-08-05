@@ -27,3 +27,11 @@
 .descriptionForHeader {
     margin-top: 5px;
 }
+
+.linkTitle {
+    color: #802d4c;
+}
+
+.linkTitle:hover {
+    color: #5e1c35;
+}
