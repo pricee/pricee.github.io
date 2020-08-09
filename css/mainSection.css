@@ -26,10 +26,13 @@
 
 .descriptionForHeader {
     margin-top: 5px;
+    font-style: italic;
+    font-size: 14px;
 }
 
 .linkTitle {
     color: #802d4c;
+    text-decoration: underline;
 }
 
 .linkTitle:hover {

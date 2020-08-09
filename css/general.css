@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Arimo";
+    src:
+        url("fonts/Arimo-Regular.eot"),
+        url("fonts/Arimo-Regular.woff") format("woff"),
+        url("fonts/Arimo-Regular.ttf") format("truetype"),
+        url("fonts/Arimo-Regular.svg#Arimo") format("svg");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Arimo";
+    src:
+        url("fonts/Arimo-Italic.eot"),
+        url("fonts/Arimo-Italic.woff") format("woff"),
+        url("fonts/Arimo-Italic.ttf") format("truetype"),
+        url("fonts/Arimo-Italic.svg#Arimo") format("svg");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Merriweather";
+    src:
+        url("fonts/Merriweather-Regular.eot"),
+        url("fonts/Merriweather-Regular.woff") format("woff"),
+        url("fonts/Merriweather-Regular.ttf") format("truetype"),
+        url("fonts/Merriweather-Regular.svg#Merriweather") format("svg");
+}
+
+body {
+    /*font-family: "Georgia", serif;*/
+    font-family: "Arimo", sans-serif;
+    margin: 0;
+}
+
+h2 {
+    font-family: "Merriweather", sans-serif;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: "Merriweather", sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-family: "Merriweather", sans-serif;
+    font-size: 17px;
+    margin-bottom: 0px;
+}
+
+h5 {
+    font-family: "Merriweather", sans-serif;
+    font-size:14px;
+    margin-top:3px;
+    margin-bottom: 5px;
+    color: #784356;
+    /*color: #784e5d;*/
+}
+
+a {
+    color: #784356;
+    /*color: #784e5d;*/
+    text-decoration: none;
+}
+
+a:hover {
+    color: #802d4c;
+    text-decoration: underline;
+}
+
+.mainPage {
+    display: flex;
+}
