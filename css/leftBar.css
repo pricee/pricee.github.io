@@ -1,9 +1,13 @@
+.scrollLeft {
+    height: 100vh;
+    overflow: scroll;
+    flex: 2;
+    background-color: #f2cc50;
+}
+
 .leftBar {
     font-family: "Merriweather", serif;
     text-align:center;
-    flex: 2;
-    height: 100vh;
-    background-color: #f2cc50;
 }
 
 .portrait {
@@ -15,6 +19,11 @@
 .emmaPrice {
     font-size: 60px;
     margin: 30px;
+}
+
+.socialIcon {
+    width: 25px;
+    margin: 10px;
 }
 
 .leftBar div {

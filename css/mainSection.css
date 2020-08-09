@@ -1,4 +1,4 @@
-.scroll {
+.scrollMain {
     height: 100vh;
     overflow: scroll;
     flex: 5;
@@ -27,7 +27,7 @@
 .descriptionForHeader {
     margin-top: 5px;
     font-style: italic;
-    font-size: 14px;
+    font-size: 15px !important;
 }
 
 .linkTitle {
